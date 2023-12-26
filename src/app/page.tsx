@@ -14,12 +14,6 @@ export default function Home() {
           <AboutPage />
           <Projects />
         </div>
-        {/* <div className="m-auto font-mono text-sm lg:flex h-screen">
-          <AboutPage />
-        </div>
-        <div className="m-auto font-mono text-sm lg:flex h-screen ">
-          <Projects />
-        </div> */}
       </main>
     </>
   );
