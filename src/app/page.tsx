@@ -8,14 +8,14 @@ import Skills from "./Skills";
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-between px-24">
-        <div className="max-w-5xl w-full m-auto items-center justify-between font-mono text-sm lg:flex h-screen">
+      <main className="flex flex-col justify-between h-screen mx-auto max-w-screen-md px-4">
+        <div className="font-mono text-sm lg:flex h-screen mt-16">
           <LandingPage />
         </div>
-        <div className="max-w-5xl w-full m-auto font-mono text-sm lg:flex h-screen">
+        <div className="m-auto font-mono text-sm lg:flex h-screen">
           <AboutPage />
         </div>
-        <div className="max-w-5xl w-full m-auto font-mono text-sm lg:flex h-screen ">
+        <div className="m-auto font-mono text-sm lg:flex h-screen ">
           <Projects />
         </div>
       </main>

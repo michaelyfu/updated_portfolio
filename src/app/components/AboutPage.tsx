@@ -21,7 +21,7 @@ function AboutPage() {
           src={"/aboutPic.jpeg"}
           height={300}
           width={300}
-          className="ml-auto"
+          className="ml-auto hidden md:flex"
           alt="about picture"
         />
       </div>

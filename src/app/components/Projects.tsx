@@ -78,10 +78,10 @@ function Projects() {
     <div className="flex flex-col m-auto gap-2">
       <h1 className="text-2xl font-bold">Projects</h1>
       <p>Here's a curated list of projects I've enjoyed the most!</p>
-      <div className="flex flex-wrap">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
         {projects.map((project) => {
           return (
-            <div key={project.name} className="m-2 w-full md:w-1/3 max-w-xs">
+            <div key={project.name} className="w-full">
               <ProjectCard
                 name={project.name}
                 image={project.image}

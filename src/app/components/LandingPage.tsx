@@ -36,18 +36,18 @@ const logos = [
 function LandingPage() {
   return (
     <div>
-      <Image
+      {/* <Image
         src={"/profilePhotoBW.jpg"}
         alt="personal photo"
         height={150}
         width={150}
         className="rounded-full aspect-square object-cover mb-10"
-      ></Image>
+      ></Image> */}
 
       <span>Good {getCurrentTime()}! My name is</span>
       <div className="mt-2 my-4 font-bold text-4xl">
         <h1>Michael Fu.</h1>
-        <h1>Let's build wonders.</h1>
+        <h1>Let's build magic.</h1>
       </div>
       <div className="flex gap-4">
         {logos.map((logo) => {
