@@ -22,7 +22,7 @@ function AboutPage() {
           <h2>Resume →</h2>
           <hr></hr>
         </div>
-        <div className="flex h-full items-end">
+        <div className="flex h-full items-end mt-2">
           <button className="p-2 outline hover:bg-black hover:text-white rounded-lg">
             <h1>Photos</h1>
           </button>
