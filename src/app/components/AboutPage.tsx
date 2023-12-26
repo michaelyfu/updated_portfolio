@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function AboutPage() {
   return (
-    <div className="flex flex-row-reverse justify-between w-full">
+    <div className="flex flex-row justify-between w-full">
       <div className="text-left w-1/2">
         <h1 className="text-2xl pb-2 font-bold">
           Welcome to my corner of the world.
@@ -16,11 +16,12 @@ function AboutPage() {
           experience leading technical consulting projects for clients ranging{" "}
         </p>
       </div>
-      <div className="text-left w-1/2">
+      <div className="w-1/2">
         <Image
           src={"/aboutPic.jpeg"}
           height={300}
           width={300}
+          className="ml-auto"
           alt="about picture"
         />
       </div>

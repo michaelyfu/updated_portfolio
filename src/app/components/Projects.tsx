@@ -48,7 +48,7 @@ const projects = [
     name: "Website A/B Testing",
     image: "/projects/B_heatmap.png",
     description:
-      "Conducted A/B testing on 2 high fidelity prototypes, then generated eye tracking heatmap + replay of gaze motion. Optimized for Egg Tarts.",
+      "Conducted A/B testing on 2 high fidelity prototypes through generated eye tracking heatmaps. Optimized for Egg Tarts.",
     tech: ["JavaScript", "Figma"],
     color: "#C75260",
     url: "",
@@ -75,7 +75,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="flex flex-col items-center m-auto gap-2">
+    <div className="flex flex-col m-auto gap-2">
       <h1 className="text-2xl font-bold">Projects</h1>
       <p>Here's a curated list of projects I've enjoyed the most!</p>
       <div className="flex flex-wrap">

@@ -47,7 +47,7 @@ function LandingPage() {
       <span>Good {getCurrentTime()}! My name is</span>
       <div className="mt-2 my-4 font-bold text-4xl">
         <h1>Michael Fu.</h1>
-        <h1>I'm currently building...</h1>
+        <h1>Let's build wonders.</h1>
       </div>
       <div className="flex gap-4">
         {logos.map((logo) => {

@@ -3,6 +3,7 @@ import Image from "next/image";
 import LandingPage from "./components/LandingPage";
 import AboutPage from "./components/AboutPage";
 import Projects from "./components/Projects";
+import Skills from "./Skills";
 
 export default function Home() {
   return (
