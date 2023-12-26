@@ -45,11 +45,15 @@ function LandingPage() {
       ></Image> */}
 
       <span>Good {getCurrentTime()}! My name is</span>
-      <div className="mt-2 my-4 font-bold text-4xl">
+      <div className="mt-2 my-4 text-4xl font-bold">
         <h1>Michael Fu.</h1>
         <h1>Let's build magic.</h1>
       </div>
-      <div className="flex gap-4">
+      <div>QuantGuide ▪ [___] ▪ [___] ↗ </div>
+      <div>Pace '21 ▪ Brown '25 ↗ </div>
+      <div>ATL ▪ PVD ▪ NYC ↗ </div>
+
+      {/* <div className="flex gap-4">
         {logos.map((logo) => {
           return (
             <Image
@@ -62,7 +66,7 @@ function LandingPage() {
             ></Image>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }

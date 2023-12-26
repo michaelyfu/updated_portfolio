@@ -19,7 +19,7 @@ function ProjectCard({
   url,
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-col justify-between h-full bg-gray-200 pb-2 rounded-lg shadow-md">
+    <div className="flex flex-col justify-between h-full bg-gray-50 pb-2 rounded-lg shadow-md">
       {/* <div className="flex flex-col justify-between items-center bg-gray-200 pb-2 rounded-lg"> */}
       <Image
         src={image}
