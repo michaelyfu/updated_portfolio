@@ -16,9 +16,14 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: rgb(
     var(--background-start-rgb)
-  ); /* Use a single color instead of gradient */
+  ); 
+} */
+
+body {
+  background-color: #ffff;
+  @apply bg-white dark:bg-slate-800;
 }

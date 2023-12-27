@@ -41,6 +41,7 @@ export default function Home() {
   ];
 
   const [darkMode, setDarkMode] = useState(false);
+
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setDarkMode(true);
@@ -50,8 +51,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <div className=" dark:bg-slate-800 dark:text-white">
+    <html className={darkMode ? "dark" : ""}>
+      <div className="bg-white text-black dark:bg-slate-800 dark:text-white">
         <main className="flex flex-col justify-between mx-auto max-w-screen-md px-4 ">
           <div className="flex flex-col gap-4 font-mono text-sm lg:flex mt-16 ">
             <div>
@@ -72,6 +73,6 @@ export default function Home() {
           </div>
         </main>
       </div>
-    </div>
+    </html>
   );
 }
