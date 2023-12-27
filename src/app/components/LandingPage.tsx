@@ -1,5 +1,6 @@
+"use client";
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 function getCurrentTime() {
@@ -34,39 +35,28 @@ const logos = [
 ];
 
 function LandingPage() {
+  const [darkMode, setDarkMode] = useState(false);
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setDarkMode(true);
+    } else {
+      setDarkMode(false);
+    }
+  }, []);
+
   return (
     <div>
-      {/* <Image
-        src={"/profilePhotoBW.jpg"}
-        alt="personal photo"
-        height={150}
-        width={150}
-        className="rounded-full aspect-square object-cover mb-10"
-      ></Image> */}
-
       <span>Good {getCurrentTime()}! My name is</span>
       <div className="mt-2 my-4 text-4xl font-bold">
         <h1>Michael Fu.</h1>
-        <h1>Let's build magic.</h1>
+        <h1>
+          Let's build{" "}
+          <button onClick={() => setDarkMode(!darkMode)}>magic.</button>
+        </h1>
       </div>
       <div>QuantGuide ▪ [___] ▪ [___] ↗ </div>
       <div>Pace '21 ▪ Brown '25 ↗ </div>
       <div>ATL ▪ PVD ▪ NYC ↗ </div>
-
-      {/* <div className="flex gap-4">
-        {logos.map((logo) => {
-          return (
-            <Image
-              key={logo.alt}
-              src={logo.src}
-              alt={logo.alt}
-              height={25}
-              width={25}
-              className="rounded-full aspect-square object-cover mb-10"
-            ></Image>
-          );
-        })}
-      </div> */}
     </div>
   );
 }

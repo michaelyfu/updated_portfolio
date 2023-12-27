@@ -19,7 +19,7 @@ function ProjectCard({
   url,
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-col justify-between h-full bg-gray-50 pb-2 rounded-lg shadow-md">
+    <div className="flex flex-col justify-between h-full bg-gray-50  dark:bg-slate-600 pb-2 rounded-lg shadow-md">
       {/* <div className="flex flex-col justify-between items-center bg-gray-200 pb-2 rounded-lg"> */}
       <Image
         src={image}
@@ -30,7 +30,7 @@ function ProjectCard({
       ></Image>
       <div className="flex flex-col grow mt-2 px-4 pb-2 pt-1">
         <div className="flex justify-between items-center mb-2">
-          <h1 className="text-xl font-semibold">{name}</h1>
+          <h1 className="text-xl font-semibold ">{name}</h1>
         </div>
         <div className="flex flex-grow">
           <p>{description}</p>

@@ -6,7 +6,7 @@ function AboutPage() {
   return (
     <div className="flex flex-row justify-between w-full h-full">
       <div className="flex flex-col text-left w-full md:w-1/2">
-        <h1 className="text-2xl pb-2 font-bold">
+        <h1 className="text-2xl pb-2 font-bold ">
           Welcome to my corner of the world.
         </h1>
         <p className="text-med">
