@@ -2,6 +2,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import DarkModeButton from "./DarkModeButton";
+import Link from "next/link";
 
 function getCurrentTime() {
   const date = new Date();
@@ -50,11 +52,18 @@ function LandingPage() {
       <div className="mt-2 my-4 text-4xl font-bold">
         <h1>Michael Fu.</h1>
         <h1>
-          Let's build{" "}
-          <button onClick={() => setDarkMode(!darkMode)}>magic.</button>
+          Let's build <DarkModeButton></DarkModeButton>
         </h1>
       </div>
-      <div>QuantGuide ▪ [___] ▪ [___] ↗ </div>
+      <div>
+        <Link
+          href={"https://www.quantguide.io/"}
+          className="no-underline hover:underline decoration-primary-100 hover:text-primary-100"
+        >
+          QuantGuide
+        </Link>{" "}
+        ▪ [___] ▪ [___] ↗
+      </div>
       <div>Pace '21 ▪ Brown '25 ↗ </div>
       <div>ATL ▪ PVD ▪ NYC ↗ </div>
     </div>

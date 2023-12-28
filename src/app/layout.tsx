@@ -16,7 +16,9 @@ export default function RootLayout({
       <head />
       <body className="dark:bg-slate-800">
         <ThemeProvider enableSystem={true} attribute="class">
-          {children}
+          <main className="bg-white text-black dark:bg-slate-800 dark:text-white">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>
