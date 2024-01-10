@@ -16,7 +16,7 @@ export default function RootLayout({
       <head />
       <body className="dark:bg-slate-800">
         <ThemeProvider enableSystem={true} attribute="class">
-          <main className="bg-white text-black dark:bg-slate-800 dark:text-white">
+          <main className="bg-white text-black dark:bg-slate-800 dark:text-white fade-in">
             {children}
           </main>
         </ThemeProvider>
