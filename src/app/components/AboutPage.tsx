@@ -16,21 +16,23 @@ function AboutPage() {
           , and am obssessed with building scalable software. I'm currently a
           student at{" "}
           <span className="text-primary-100 font-bold">Brown University</span>{" "}
-          studying Computer Science and Economics, where I helped teach Systems
+          studying Computer Science and Economics, where I help teach Systems
           and Data Structures and Algorithms. My interests lie within{" "}
           <span className="text-primary-100 font-bold">
             systems and machine learning.
           </span>
         </p>
         <p className="text-med pt-2">
-          Previously, I was the founding engineer of an{" "}
+          I'm currently intering at Lazard in NYC. Previously, I was the
+          founding engineer of an{" "}
           <Link
             href={"https://www.ycombinator.com/"}
             className="no-underline hover:underline decoration-primary-100  text-primary-100 font-bold"
           >
             Y Combinator-backed startup
           </Link>{" "}
-          that reached over 400,000+ monthly impressions.
+          that reached over 400,000+ monthly impressions and $300,000+ ARR in 4
+          months.
         </p>
         <p className="text-med pt-2">
           You can find me playing blindfold chess on
@@ -96,7 +98,7 @@ function AboutPage() {
       <div className="w-1/2 hidden md:flex justify-end items-center">
         <div style={{ maxWidth: "100%", height: "auto", maxHeight: "350px" }}>
           <Image
-            src="/profilePhoto2.png"
+            src="/profilePhoto3.png"
             width={325}
             height={325}
             objectFit="contain"

@@ -9,6 +9,14 @@ const projects = [
     description: "Built Unix-based OS from scratch.",
     tech: ["C", "Unix"],
     color: "#de7402",
+    url: "https://github.com/michaelyfu/weenix",
+  },
+  {
+    name: "SLBF",
+    image: "/projects/BloomFilter.webp",
+    description: "Applying ML to probabilistic data structures.",
+    tech: ["PyTorch"],
+    color: "#de7402",
     url: "",
   },
   {
@@ -17,7 +25,23 @@ const projects = [
     description: "Creating AR Experiences. One scavenger hunt at a time.",
     tech: ["React", "AR.js"],
     color: "#462515",
-    url: "",
+    url: "https://devpost.com/software/scavengerar",
+  },
+  {
+    name: "Navigating the Carbon Implications of ML",
+    image: "/projects/MLCarbonFootprint.jpeg",
+    description: "Wrote a paper on your ML carbon footprint.",
+    tech: ["Python"],
+    color: "#1f77b4",
+    url: "https://drive.google.com/file/d/1uQt9QcvuYrLpL4f5JgJbbYP3OHrWydb-/view?usp=sharing",
+  },
+  {
+    name: "Blocker",
+    image: "/projects/blocker.png",
+    description: "Simplifying the Dockerfile creation process.",
+    tech: ["Python"],
+    color: "#1f77b4",
+    url: "https://devpost.com/software/blocker-qwjn46",
   },
   {
     name: "iPortfolio",
@@ -37,6 +61,14 @@ const projects = [
     url: "",
   },
   {
+    name: "Connect Four",
+    image: "/projects/Connect4.png",
+    description: "Beating your favorite childhood game with AI.",
+    tech: ["PyTorch"],
+    color: "#de7402",
+    url: "",
+  },
+  {
     name: "Spotifly",
     image: "/projects/SpotiflyOutput.png",
     description: "Song-guessing Spotify Wordle Variant. Personalized for you.",
@@ -53,15 +85,6 @@ const projects = [
     color: "#C75260",
     url: "",
   },
-  // {
-  //   name: "Hedgehog",
-  //   image: "HedgehogUI",
-  //   description:
-  //     "High-fidelity prototype for Hedgehog, an AI-driven mushroom farming startup. Mushrooms.",
-  //   tech: ["Figma", "Balsamiq"],
-  //   color: "#783F04",
-  //   url: "",
-  // },
   // {
   //   name: "Brock's Breakfast Foods",
   //   image: "brocks-breakfast",

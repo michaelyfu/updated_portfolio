@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 
@@ -18,16 +19,25 @@ function ProjectCard({
   color,
   url,
 }: ProjectCardProps) {
+  function clickHandler(e: any) {
+    e.preventDefault();
+    if (url) {
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+  }
+
   return (
     <div className="flex flex-col justify-between h-full bg-gray-50  dark:bg-slate-600 pb-2 rounded-lg shadow-md">
       {/* <div className="flex flex-col justify-between items-center bg-gray-200 pb-2 rounded-lg"> */}
-      <Image
-        src={image}
-        height={500}
-        width={500}
-        alt={name}
-        className="h-48 w-full object-cover rounded-t-lg"
-      ></Image>
+      <button onClick={(e) => clickHandler(e)}>
+        <Image
+          src={image}
+          height={500}
+          width={500}
+          alt={name}
+          className="h-48 w-full object-cover rounded-t-lg"
+        ></Image>
+      </button>
       <div className="flex flex-col grow mt-2 px-4 pb-2 pt-1">
         <div className="flex justify-between items-center mb-2">
           <h1 className="text-xl font-semibold ">{name}</h1>
