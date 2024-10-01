@@ -18,12 +18,10 @@ function AboutPage() {
           <span className="text-primary-100 font-bold">Brown University</span>{" "}
           studying Computer Science and Economics, where I help teach Systems
           and Data Structures and Algorithms. My interests lie within{" "}
-          <span className="text-primary-100 font-bold">
-            systems and machine learning.
-          </span>
+          <span className="text-primary-100 font-bold">LLMs and systems.</span>
         </p>
         <p className="text-med pt-2">
-          I'm currently intering at Lazard in NYC. Previously, I was the
+          I'm currently interning at Lazard in NYC. Previously, I was the
           founding engineer of an{" "}
           <Link
             href={"https://www.ycombinator.com/"}

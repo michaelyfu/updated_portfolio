@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex flex-col gap-4 font-mono text-sm lg:flex my-16 ">
         <LandingPage />
         <AboutPage />
-        <Projects />
+        {/* <Projects /> */}
       </div>
     </div>
   );
