@@ -93,12 +93,20 @@ function AboutPage() {
           </Link>
         </div>
       </div>
-      <div className="w-1/2 hidden md:flex justify-end items-center">
-        <div style={{ maxWidth: "100%", height: "auto", maxHeight: "350px" }}>
+      <div className="w-1/2 hidden md:flex justify-end items-center align-middle">
+        <div
+          style={{
+            maxWidth: "100%",
+            maxHeight: "350px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <Image
-            src="/profilePhoto3.png"
-            width={325}
-            height={325}
+            src="/MichaelFuPortrait.jpg"
+            width={300}
+            height={300}
             objectFit="contain"
             className="max-w-full h-auto"
             alt="about picture"
