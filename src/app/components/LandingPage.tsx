@@ -62,7 +62,7 @@ function LandingPage() {
         >
           QuantGuide
         </Link>{" "}
-        ▪ Lazard ▪ [___] ↗
+        ▪ Lazard ▪ Palantir ↗
       </div>
       <div>Pace '21 ▪ Brown '25 ↗ </div>
       <div>ATL ▪ PVD ▪ NYC ↗ </div>
